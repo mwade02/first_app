@@ -50,7 +50,7 @@ the following resources handy:
 * Ruby on Rails Tutorial Book: http://www.railstutorial.org/
 
 
-#### Debugging Rails ####
+### Debugging Rails ###
 
 Sometimes your application goes wrong. Fortunately there are a lot of tools that
 will help you debug it and get it back on the rails.
@@ -87,7 +87,7 @@ These two books will bring you up to speed on the Ruby language and also on
 programming in general.
 
 
-##### Debugger #####
+### Debugger ###
 
 Debugger support is available through the debugger command when you start your
 Mongrel or WEBrick server with --debugger. This means that you can break out of
@@ -123,7 +123,7 @@ with a IRB prompt in the server window. Here you can do things like:
 Finally, when you're ready to resume execution, you can enter "cont".
 
 
-###### Console ######
+### Console ###
 
 The console is a Ruby shell, which allows you to interact with your
 application's domain model. Here you'll have all parts of the application
@@ -148,7 +148,7 @@ More information about irb can be found at:
 link:http://www.rubycentral.org/pickaxe/irb.html
 
 
-####### dbconsole #######
+### dbconsole ###
 
 You can go to the command line of your database directly through <tt>rails
 dbconsole</tt>. You would be connected to the database with the credentials
